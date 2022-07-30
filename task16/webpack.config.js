@@ -46,6 +46,7 @@ module.exports = (env, argv) => {
       },
       compress: true,
       port: 9000,
+      hot: true,
     },
   };
   if (isProduction) {
