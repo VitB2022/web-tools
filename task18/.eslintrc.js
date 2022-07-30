@@ -1,9 +1,9 @@
 module.exports = {
-  extends: "eslint-config-airbnb-base",
-  rules: { "no-console": 2 },
+  extends: 'eslint-config-airbnb-base',
+  rules: { 'no-console': 2 },
   parserOptions: {
     ecmaVersion: 10,
-    sourceType: "module",
+    sourceType: 'module',
   },
   env: {
     browser: true,
